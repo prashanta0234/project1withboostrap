@@ -1,0 +1,146 @@
+/* @media(max-width:569) */
+@media  (max-width:640px) 
+{
+    .carousel-caption h1 {
+        font-size: 1rem;
+        letter-spacing: 13px;
+        font-weight: 700;
+    }
+    .h2, h2 {
+        font-size: 17px;
+    }
+    .carousel-caption a {
+        padding: 9px 21px;
+        background-color: #cfc91d;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .carousel-caption {
+        bottom: 16%;
+    }
+   
+
+.tex p {
+    color: #7e8287;
+    line-height: 21px;
+    padding: 0px 0px;
+    }
+.con{
+    border: none;
+    padding: 0px 50px;
+}
+.ser_tx {
+    padding: 27px 36px;
+}
+.wo {
+    margin-top: 90px;
+    padding: 0px 0px;
+    margin-bottom: 90px;
+}
+
+
+.contact {
+    margin: 90px 0px;
+    padding: 0px 94px;
+    line-height: 40px;
+}
+.ser_part {
+    padding-top: 10px;
+    height: 210px;
+    width: 215px;
+}
+.ser_part h5 {
+    font-size: 12px;
+    color: #7E8285;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 15px;
+    padding-right: 0px;
+}
+.ser_part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #7e8287;
+    font-size: 15px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -121px;
+    margin-left: -15px;
+}
+
+}
+
+@media (min-width:641px) and (max-width:1200px) 
+ {
+    .h2, h2 {
+        font-size: 22px;
+    }
+    .carousel-caption h1 {
+        font-size: 25px;
+        letter-spacing: 15px;
+        font-weight: 700;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 168px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .er_tx {
+        padding: 20px 7px;
+    }
+    
+    .banner_text h5 {
+    font-size: large;
+    }
+
+    .banner_text img {
+        padding-left: 191px;
+        margin: 20px 0px;
+    }
+    .two{
+        border: none;
+    }
+
+    .con{
+        margin-top: 40px;
+    }
+    .wo {
+        margin-top: 194px;
+        padding: 0px 89px;
+        margin-bottom: 90px;
+    }
+    .contact {
+        margin: 90px 0px;
+        padding: 0px 115px;
+        line-height: 40px;
+    }
+    .ser_part {
+        padding-top: 30px;
+    }
+    .ser_tx {
+        padding: 38px 33px;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 98%;
+    }
+    
+}
+
+    
+
+
+

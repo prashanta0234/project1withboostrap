@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_b{
+    background-color: #02918c;
+    
+    
+}
+#mynav ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0px 20px;
+
+}
+.banner{
+    height:auto;
+    width:100%;
+    
+   
+   
+}
+/* .banner_image{
+    position: absolute;
+    width: 100%;
+}
+ .carousel-caption{
+     bottom: 30%;
+ }
+ .banner_text h2{
+    font-weight: 700;
+    font-size: 2rem;
+    
+} */
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 370px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h1{
+    font-size: 3rem;
+    letter-spacing: 20px;
+    font-weight: 700;
+    
+    
+}
+.carousel-caption h5{
+    font-size: large;
+    
+}
+.carousel-caption img {
+    
+    margin: 20px 0px;
+    
+}
+.carousel-caption a{
+    padding: 10px 40px;
+    background-color: #cfc91d;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+
+
+.tex{
+    margin-top: 30px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.tex h1{
+    color: #02918c;
+    font-weight: 800;
+}
+.tex p{
+    color: #7e8287;
+    line-height: 30px;
+}
+.about_main{
+    margin: 50px 0px;
+    color:#7e8287 ;
+    
+    line-height: 30px;
+    
+}
+.about_main h4{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.about_main p{
+    font-size: 15px;
+}
+.con{
+  border-right: 1px solid #7e8287;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 0px 50px;
+}
+.four{
+    border-right: none;
+}
+.service{
+  margin-top: 70px;
+box-sizing: border-box;
+
+height: 625px;
+width: 100%;
+background: url(../image/banner1.jpg);
+background-size: 100%;
+}
+.ser_tx{
+ padding: 45px 70px;
+
+}
+.ser_main h2{
+  font-family: 'Open Sans', sans-serif;
+  /* font-size: 30px;
+  font-weight: bolder; */
+  color: #02918c;
+  font-weight: 800;
+}
+.ser_main p{
+  color:#7e8287 ;
+  font-size: 17px;
+}
+.ser_part{
+  padding-top: 27px;
+  
+}
+.ser_part h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #7e8287;
+  font-size: 20px;
+}
+.ser_part h5{
+  font-size: 13px;
+  color: #7e8287;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 20px;
+  padding-right: 70px;
+
+}
+.wo{
+ margin-top: 90px; 
+ padding: 0px 200px;
+ margin-bottom: 90px;
+  
+}
+.wo h1{
+  font-family: 'Open Sans', sans-serif;
+  
+  color: #02918c;
+  font-weight: 800;
+}
+.wo p{
+  color: #7e8287;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.im_text{
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  bottom: 21px;
+  right: 21px;
+  background-color: #128782;
+  color: white;
+  line-height: 30px;
+  opacity: .8;
+  transition: .4s;
+  transform: scale(0);
+}
+.work_item:hover .im_text{
+  transform: scale(1);
+}
+.im_text h3{
+  padding-top:40px;
+ 
+  
+}
+.im_text p{
+   padding-bottom: 40px;
+   font-size: 15px;
+   padding: 0px 25px;
+}
+.contact{
+   margin: 90px 0px;
+   padding: 0px 200px;
+   line-height: 40px;
+}
+
+.contact h1{
+  font-family: 'Open Sans', sans-serif;
+  
+  color: #02918c;
+  font-weight: 800;
+}
+.contact p{
+  color: #7e8287;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.contact_main{
+  background-color: #0a0a0b;
+  height: 560px;
+  width: full;
+  text-align: center
+}
+.clear{
+   clear: both;
+}
+.form-group{
+   color: #7e8287;
+   
+   
+}
+.contact_main form{
+  padding-top: 50px;
+}
+
+.on{
+  height: 50px;
+ 
+  text-align: center;
+  
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  margin-top: 50px;
+  
+}
+.btn{
+  margin-top: 70px;
+  background-color: #cfc91d;
+  border: none;
+  color: black;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+.btn:hover{
+  background-color: #cfc91d;
+  border: none;
+  color: black;
+}
+
+textarea{
+    resize: none;
+}
+.footer{
+  height: 60px;
+  width: full;
+  background-color: black;
+}
+.footer h5{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color:#7e8287 ;
+  
+}
