@@ -30,6 +30,7 @@
 .con{
     border: none;
     padding: 0px 50px;
+
 }
 .ser_tx {
     padding: 27px 36px;
@@ -70,7 +71,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -121px;
+    margin-right: -13px;
     margin-left: -15px;
 }
 
